@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Schibsted+Grotesk:ital,wght@0,400..900;1,400..900&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+body{
+    display: flex;
+    justify-content: center;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    
+}
+
+
+.outside{
+    padding: 30px;
+    background-color: #F9F3E7;
+    border-radius: 10px;
+    margin-top: 50px ;
+}
+
+
+.inside{
+    background-color: #FFFCF2;
+    border-radius: 7px;
+}
+
+
+.inside p{
+    padding: 10px 30px 20px 30px;
+    text-align: center;
+
+}
+
+
+.inside h1{
+    text-align: center;
+    padding: 15px 10px 5px;
+    color: rgba(28, 34, 60, 0.9);
+}
+
+
+nav{
+    padding: 6px 0;
+    background-color: #E38D65;
+}
+
+
+nav ul{
+    display: flex;
+    height: 25px;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style-type: none;
+}
+
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+
+nav ul li a:hover{
+        color: white;
+}
+
+
+main h2{
+    color: rgba(28, 34, 60, 0.9);
+    text-align: center;
+
+}
+
+
+main{
+    padding:20px 30px;
+    line-height: 1.7;
+}
+
+
+
+#name {
+    background-color: #FFFCF2;
+    border: 1px  solid #222020;
+    color:black;
+    border-radius: 3px;
+    padding:3px;
+    width: 97%;
+    
+}
+
+
+#email{
+    background-color: #FFFCF2;
+    border: 0.7px solid #222020;
+    border-radius: 3px;
+    padding: 3px;
+    width: 97%;
+}
+
+
+#rating{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+#c{
+    background-color: #FFFCF2;
+    border: 0.1px solid #222020;
+    padding: 20px;
+    border-radius: 2.5px;
+    width: 88%;
+}
+
+
+#btn{
+    display: flex;
+    justify-content: center;
+    padding: 8px 6px;
+    margin:0 auto;
+    color:white;
+    background-color: #E38D65;
+    border: none;
+    border-radius: 3px;
+    margin-top: 10px;
+
+}
+
+
+#btn:hover{
+    background-color: #dd6731;
+    color: #222020;
+    cursor: pointer;
+}
+
+
+section:last-child{
+    padding-bottom: 0;
+}
+
+
+footer{
+    border-top: 2px solid black;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
