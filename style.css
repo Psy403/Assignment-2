@@ -87,6 +87,7 @@ main{
 #name {
     background-color: #FFFCF2;
     border: 1px  solid #222020;
+    border-color: rgba(106, 107, 110, 0.9);
     color:black;
     border-radius: 3px;
     padding:3px;
@@ -95,13 +96,31 @@ main{
 }
 
 
+#name:focus{
+    outline: none;
+    box-shadow: none;
+    border:0.7px solid #222020;
+    border-color: rgba(106, 107, 110, 0.9);
+}
+
+
 #email{
     background-color: #FFFCF2;
     border: 0.7px solid #222020;
+    border-color: rgba(106, 107, 110, 0.9);
     border-radius: 3px;
     padding: 3px;
     width: 97%;
 }
+
+
+#email:focus{
+    border: 0.7px solid #222020;
+    border-color: rgba(106, 107, 110, 0.9);
+    outline: none;
+    box-shadow: none;
+}
+
 
 
 #rating{
@@ -109,12 +128,23 @@ main{
     margin-left: 10px;
 }
 
+
+
 #c{
     background-color: #FFFCF2;
     border: 0.1px solid #222020;
+    border-color: rgba(106, 107, 110, 0.9);
     padding: 20px;
     border-radius: 2.5px;
     width: 88%;
+}
+
+
+#c:focus{
+    border: 0.7px solid #222020;
+    border-color: rgba(106, 107, 110, 0.9);
+    outline: none;
+    box-shadow: none;
 }
 
 
